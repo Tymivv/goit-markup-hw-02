@@ -1,0 +1,90 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2F303A;
+  --primary-white-color: #E5E5E5;
+  --text-line: #2196F3;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+/* logo */
+.logo {
+  color: var(--text-line);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-header {
+  color: var(--title-text-color);
+}
+.logo-footer {
+    color: #ffffff;
+}
+
+/* Site nav */
+
+.site-nav .link, 
+.mail,
+.telef {
+  color: var(--title-text-color);
+}
+
+/* .mail:hover */
+.site-nav .link:hover, .mail:hover, .telef:hover,
+.site-nav .link:focus, .mail:focus, .telef:focus {
+  color: var(--text-line);
+}
+ /* ГЕРОЙ */
+.hero{
+color: var(--primary-white-color);
+background-color: var(--accent-color);
+}  
+
+ /* Button */
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--text-line);
+}
+
+/* Преимущества */
+.Advantages-title {
+    color: var(--title-text-color);
+}
+.Advantages-text {
+    color: var(--primary-text-color);
+}
+
+/* Чем мы занимаемся */
+.work-title {
+color: var(--title-text-color);
+}
+
+/* Футер */
+.footer{
+  background: #2F303A;
+}
+
+.footer-mail,
+.footer-telef,
+.addres {
+  color: var(--primary-white-color);
+}
+
+/* .mail:hover */
+.footer-mail:hover, .footer-telef:hover,
+.footer-mail:focus, .footer-telef:focus {
+  color: var(--text-line);
+}
+
+/* сторінка портфоліо */
+.portfolio-link{
+  color: var(--text-line);
+}
+}
