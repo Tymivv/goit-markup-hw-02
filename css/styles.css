@@ -21,6 +21,7 @@ body {
 }
 /* logo */
 .logo {
+  text-decoration: none;
   color: var(--text-line);
   font-family: Raleway;
   font-style: normal;
@@ -38,16 +39,42 @@ body {
 
 /* Site nav */
 
-.site-nav .link, 
-.mail,
-.telef {
-color: var(--title-text-color);
+.site-nav,
+.Advantages-list,
+.address-list,
+.work-list,
+.project-list{
+list-style: none;
+}
 
+.site-nav .link
+ {
+  
+color: var(--title-text-color);
+text-decoration: none;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 }
+
+
+.mail,
+.telef {
+  
+color: var(--primary-text-color);
+text-decoration: none;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+.site-nav, 
+.mail,
+.telef{
+font-weight: 500;
+}
+
 
 /* .mail:hover */
 .site-nav .link:hover, .mail:hover, .telef:hover,
@@ -88,6 +115,7 @@ cursor: pointer;
 /* Преимущества */
 .Advantages-title {
     color: var(--title-text-color);
+    text-transform: uppercase;
 
     line-height: 1.14;
 }
@@ -96,6 +124,9 @@ cursor: pointer;
 }
 
 /* Чем мы занимаемся */
+.work{
+  list-style: none;
+}
 .work-title {
 color: var(--title-text-color);
 
@@ -130,10 +161,18 @@ text-align: center;
 
 }
 
-.footer-mail,
-.footer-telef,
+
 .addres {
+  text-decoration: none;
+  list-style: none;
   color: var(--primary-white-color);
+}
+
+.footer-mail,
+.footer-telef{
+color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  list-style: none;
 }
 
 /* .mail:hover */
@@ -165,6 +204,12 @@ font-weight: normal;
 background: var(--background-color-button);
 color: var(--title-text-colorr);
 cursor: pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
 }
 
 /* роботи в портфоліо */
@@ -180,3 +225,12 @@ letter-spacing: 0.06em;
 font-size: 16px;
 line-height: 1.87;
 }
+
+/* HTML CSSResult Skip Results Iframe
+EDIT ON */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
